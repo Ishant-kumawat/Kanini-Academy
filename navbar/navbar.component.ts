@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import 'bootstrap';
 
 @Component({
   selector: 'app-navbar',
@@ -7,5 +6,6 @@ import 'bootstrap';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent {
+  
 
 }
