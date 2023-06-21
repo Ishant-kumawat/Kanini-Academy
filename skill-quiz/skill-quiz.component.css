@@ -1,0 +1,95 @@
+.card {
+    width: 90%;
+    height: 500px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    margin-left: 70px;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  .card1{
+    border: solid 1px;
+    width: 100%;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    margin-left: 70px;
+  }
+  .card1 {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .item1 {
+    grid-row: span 2;
+  }
+  
+  .item2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .item3 {
+    justify-self: end;
+    
+  }
+  
+
+ 
+  
+  
+
+  
+
+  .para{
+ text-align: justify;
+ 
+  } 
+  
+
+
+
+
+
+
+
+  .container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.certitab {
+    color: grey;
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+.sidebar {
+background-color: #f5f5f5;
+  margin-top: 6.9px;
+    width: 300px;
+    margin-top: 20px;
+margin-left: 100px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+
