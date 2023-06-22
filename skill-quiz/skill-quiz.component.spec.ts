@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SkillQuizComponent } from './skill-quiz.component';
+import { SkillquizComponent } from './skillquiz.component';
 
-describe('SkillQuizComponent', () => {
-  let component: SkillQuizComponent;
-  let fixture: ComponentFixture<SkillQuizComponent>;
+describe('SkillquizComponent', () => {
+  let component: SkillquizComponent;
+  let fixture: ComponentFixture<SkillquizComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [SkillQuizComponent]
+      declarations: [SkillquizComponent]
     });
-    fixture = TestBed.createComponent(SkillQuizComponent);
+    fixture = TestBed.createComponent(SkillquizComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
